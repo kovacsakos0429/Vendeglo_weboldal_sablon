@@ -24,8 +24,9 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
-	
-	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>	
+<script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>	
+<link href="lightbox/dist/css/lightbox.min.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -65,8 +66,7 @@
       <div class="container">
         <div class="row">
           <div class="intro-text">
-			<img data-aos="fade-down" data-aos-duration="1000" class="logo" src="img/logo.png" alt="">
-            <img data-aos="fade-up" data-aos-duration="1000" class="nev" src="img/név.png" alt="">
+            <p data-aos="fade-up" data-aos-duration="1000" class="nev">Étterem Vendéglő</p>
             <p data-aos="zoom-in-down" data-aos-duration="1000">Asztal foglalás és rendelés: (88) 510-960</p>
           </div>
         </div>
@@ -79,26 +79,27 @@
   <div class="container">
     <div data-aos="fade-up" data-aos-duration="1000" class="section-title">
       <h2>Napi menü ajánlatunk</h2>
+       <p style="font-size: 20px;">Hétfőtől - Szombatig</p>
     </div>
     <div class="row">
       <div data-aos="fade-up" data-aos-duration="1000" class="col-xs-12 col-sm-4">
         <div class="features-item">
           <h3>Temesvári sertéscsíkok</h3>
-          <img src="img/specials/1.jpg" class="img-responsive" alt="">
+           <a href="img/specials/1.jpg" data-lightbox="features"><img src="img/specials/1.jpg" class="img-responsive" alt=""></a>
           <p>Kagylótésztával</p>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" class="col-xs-12 col-sm-4">
         <div class="features-item">
           <h3>Zöldséges csirkemáj</h3>
-          <img src="img/specials/2.jpg" class="img-responsive" alt="">
+          <a href="img/specials/2.jpg" data-lightbox="features"><img src="img/specials/2.jpg" class="img-responsive" alt=""></a>
           <p>Steak burgonyával</p>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" class="col-xs-12 col-sm-4">
         <div class="features-item">
           <h3>Fásgaluska leves</h3>
-          <img src="img/specials/3.jpg" class="img-responsive" alt="">
+           <a href="img/specials/3.jpg" data-lightbox="features"><img src="img/specials/3.jpg" class="img-responsive" alt=""></a>
           <p>Kacsanyakból</p>
         </div>
       </div>
@@ -379,23 +380,28 @@
         <div class="menu-section">
           <h2 class="menu-section-title">Vegetáriánus ételek</h2>
           <div class="menu-item">
-            <div class="menu-item-name">Bolognai spagetti</div>
-            <div class="menu-item-price">1690,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Zeller" >9</t> /</div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name">Carbonara spagetti</div>
-            <div class="menu-item-price">1590,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Zeller" >9</t> /</div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name">Gorgonzolás batyu füstöltsajt szószban</div>
-            <div class="menu-item-price">1890,-</div>
+            <div class="menu-item-name">Cicege, tejföllel és sajttal</div>
+            <div class="menu-item-price">890,-</div>
             <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Tésztagyűrűk garnélás paradicsomraguban</div>
-            <div class="menu-item-price">1890,-</div>
+            <div class="menu-item-name">Rántott trappista hasábburgonyával és tartármártással</div>
+            <div class="menu-item-price">1690,-</div>
+            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Zeller" >9</t> /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Tojásos nokedli fejes salátával</div>
+            <div class="menu-item-price">1290,-</div>
+            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Kén-dioxid szulfitok" >12</t> /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Borsós újhagymás rizottó</div>
+            <div class="menu-item-price">1490,-</div>
+            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Zeller" >9</t> /</div>
+          </div>
+           <div class="menu-item">
+            <div class="menu-item-name">Rókagombás rizottó</div>
+            <div class="menu-item-price">1790,-</div>
             <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
           </div>
         </div>
@@ -404,19 +410,19 @@
         <div class="menu-section">
           <h2 class="menu-section-title">Halak</h2>
           <div class="menu-item">
-            <div class="menu-item-name">Sertéspörkölt galuskával</div>
-            <div class="menu-item-price">1750,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t> /</div>
+            <div class="menu-item-name">Rántott fogasfilé petrezselymes burgonyával, tartár mártással</div>
+            <div class="menu-item-price">2890,-</div>
+            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Hal" >3</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Marhapörkölt galuskával</div>
-            <div class="menu-item-price">1990,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Kén-dioxid szulfitok" >12</t> /</div>
+            <div class="menu-item-name">Tőkehalfilé szezámmagbundában, borsós, újhagymás rizottóval</div>
+            <div class="menu-item-price">3190,-</div>
+            <div class="menu-item-description">/ <t title="Hal" >3</t>, <t title="Tej" >7</t> /</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Borjúpaprikás tojásos galuskáva</div>
+            <div class="menu-item-name">Roston sült lazac, fűszeres tigrisrákokkal (3 db), polentával és citromos tejszínes mártással</div>
             <div class="menu-item-price">2490,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
+            <div class="menu-item-description">/ <t title="Hal" >2</t>, <t title="Rákfélék és egyéb puhatestűek" >3</t>, <t title="Tej" >7</t> /</div>
           </div>
         </div>
       </div>
@@ -426,24 +432,19 @@
         <div class="menu-section">
           <h2 class="menu-section-title">Vegyes tálak pároknak, vagy nagyevőknek</h2>
           <div class="menu-item">
-            <div class="menu-item-name">Bolognai spagetti</div>
-            <div class="menu-item-price">1690,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Zeller" >9</t> /</div>
+            <div class="menu-item-name">Kapufa tál</div>
+            <div class="menu-item-price">4990,-</div>
+            <div class="menu-item-description">Sajttal-sonkával töltött sertés borda, cigánypecsenye, rántott camembert, vegyes körettel / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Carbonara spagetti</div>
-            <div class="menu-item-price">1590,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Zeller" >9</t> /</div>
+            <div class="menu-item-name">Bábolnai bőségtál</div>
+            <div class="menu-item-price">5290,-</div>
+            <div class="menu-item-description">Konfitált kacsacomb, rántott csirkemell, roston csirke, párolt rizzsel, mogyoró burgonyával, málnás párolt káposztával / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Kén-dioxid szulfitok" >12</t> /</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Gorgonzolás batyu füstöltsajt szószban</div>
-            <div class="menu-item-price">1890,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name">Tésztagyűrűk garnélás paradicsomraguban</div>
-            <div class="menu-item-price">1890,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
+            <div class="menu-item-name">Ínyenc-Tál</div>
+            <div class="menu-item-price">5290,-</div>
+            <div class="menu-item-description">Marha-sertés-csirkenyárs, kentucky csirke, velővel töltött sertésborda, rizzsel, steakburgonyával és ajvárral/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Kén-dioxid szulfitok" >12</t> /</div>
           </div>
         </div>
       </div>
@@ -451,19 +452,24 @@
         <div class="menu-section">
           <h2 class="menu-section-title">Köretek</h2>
           <div class="menu-item">
-            <div class="menu-item-name">Sertéspörkölt galuskával</div>
-            <div class="menu-item-price">1750,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t> /</div>
+            <div class="menu-item-name">Burgonya köretek:</div>
+            <div class="menu-item-price">470,-</div>
+            <div class="menu-item-description">Hasábburgonya, Steak burgonya, Mogyoró burgonya, Petrezselymes burgonya</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Marhapörkölt galuskával</div>
-            <div class="menu-item-price">1990,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Kén-dioxid szulfitok" >12</t> /</div>
+            <div class="menu-item-name">Édesburgonya hasábok, grill zöldség</div>
+            <div class="menu-item-price">590,-</div>
+            <div class="menu-item-description"></div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Borjúpaprikás tojásos galuskáva</div>
-            <div class="menu-item-price">2490,-</div>
+            <div class="menu-item-name">Polenta, Galuska</div>
+            <div class="menu-item-price">470,-</div>
             <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Párolt rizs</div>
+            <div class="menu-item-price">450,-</div>
+            <div class="menu-item-description"></div>
           </div>
         </div>
       </div>
@@ -473,19 +479,109 @@
         <div class="menu-section">
           <h2 class="menu-section-title">Saláták</h2>
           <div class="menu-item">
-            <div class="menu-item-name">Bolognai spagetti</div>
-            <div class="menu-item-price">1690,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Zeller" >9</t> /</div>
+            <div class="menu-item-name">Uborka saláta, ecetes almapaprika</div>
+            <div class="menu-item-price">490,-</div>
+            <div class="menu-item-description">/<t title="Kén-dioxid szulfitok">12</t> /</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Carbonara spagetti</div>
-            <div class="menu-item-price">1590,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Zeller" >9</t> /</div>
+            <div class="menu-item-name">Tejfölös uborkasaláta</div>
+            <div class="menu-item-price">550,-</div>
+            <div class="menu-item-description">/ <t title="Tej" >7</t>, <t title="Kén-dioxid szulfitok">12</t> /</div>
           </div>
           <div class="menu-item">
-            <div class="menu-item-name">Gorgonzolás batyu füstöltsajt szószban</div>
-            <div class="menu-item-price">1890,-</div>
-            <div class="menu-item-description">/ <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> /</div>
+            <div class="menu-item-name">Káposzta saláta, csemege uborka</div>
+            <div class="menu-item-price">470,-</div>
+            <div class="menu-item-description">/<t title="Kén-dioxid szulfitok">12</t> /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Fejes saláta</div>
+            <div class="menu-item-price">470,-</div>
+            <div class="menu-item-description">/<t title="Kén-dioxid szulfitok">12</t> /</div>
+          </div>
+        </div>
+      </div>
+      <div data-aos="zoom-in" data-aos-duration="1000" class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">Desszertek</h2>
+          <div class="menu-item">
+            <div class="menu-item-name">Somlói galuska</div>
+            <div class="menu-item-price">750,-</div>
+            <div class="menu-item-description">/<t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Diófélék" >8</t> /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Szuflé</div>
+            <div class="menu-item-price">890,-</div>
+            <div class="menu-item-description">Csokoládé, málna, mangó /<t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Diófélék" >8</t> / NEM SZÁLLÍTJUK KI!</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Panna cotta</div>
+            <div class="menu-item-price">790,-</div>
+            <div class="menu-item-description">Eperraguval és mentával /<t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t> / NEM SZÁLLÍTJUK KI!</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Házi készítésű brownie</div>
+            <div class="menu-item-price">890,-</div>
+            <div class="menu-item-description">/<t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>, <t title="Diófélék" >8</t> / NEM SZÁLLÍTJUK KI!</div>
+          </div>
+        </div>
+		</div>
+    </div>
+    <div class="row">
+      <div data-aos="zoom-in" data-aos-duration="1000" class="col-xs-12 col-sm-6">
+        <div class="menu-section">
+          <h2 class="menu-section-title">Pizzák</h2>
+          <div class="menu-item">
+            <div class="menu-item-name">1. Margherita</div>
+            <div class="menu-item-price">1090,-</div>
+            <div class="menu-item-description">Paradicsom szósz, sajt, friss paradicsom / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t>  /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">2. Pizza alla Hawaii</div>
+            <div class="menu-item-price">1290,-</div>
+            <div class="menu-item-description">Paradicsom szósz, sajt, friss paradicsom / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t> /<br />Menüben is kapható: hasábburgonyával és mártogatóssal</div>
+            <div style="line-height: 50px" class="menu-item-price">1410,-</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">3. Pizza Prosciutto</div>
+            <div class="menu-item-price">1190,-</div>
+            <div class="menu-item-description">Paradicsom szósz, sajt, friss paradicsom / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t> /<br />Menüben is kapható: hasábburgonyával és mártogatóssal</div>
+            <div style="line-height: 50px" class="menu-item-price">1410,-</div>
+          </div>
+           <div class="menu-item">
+            <div class="menu-item-name">4. Pizza alla Peppino</div>
+            <div class="menu-item-price">1290,-</div>
+            <div class="menu-item-description">Paradicsom szósz, sajt, friss paradicsom / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t> /<br />Menüben is kapható: hasábburgonyával és mártogatóssal</div>
+            <div style="line-height: 50px" class="menu-item-price">1410,-</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">5. Pizza alla Bolognese</div>
+            <div class="menu-item-price">1290,-</div>
+            <div class="menu-item-description">Paradicsom szósz, blognai ragu, sajt / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t>, <t title="Zeller" >9</t>  /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">6. Pizza alla Diavola /csípős/</div>
+            <div class="menu-item-price">1290,-</div>
+            <div class="menu-item-description">Paradicsomos csípős szósz, füstölt tarja, szalámi, sajt, hegyes erős paprika / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t>  /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">7. Pizza alla Ungheria</div>
+            <div class="menu-item-price">1290,-</div>
+            <div class="menu-item-description">Paradicsomos csípős szósz, kolbász, főtt tojás, sajt, paprika, hagyma, bacon / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tojás" >4</t>, <t title="Tej" >7</t>  /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">8. Pizza Quattro Stagioni</div>
+            <div class="menu-item-price">1290,-</div>
+            <div class="menu-item-description">Paradicsom szósz, sonka, szalámi, gomba, kukorica, sajt / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t>  /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">9. Pizza al Tonno e Cipolle</div>
+            <div class="menu-item-price">1090,-</div>
+            <div class="menu-item-description">Paradicsom szósz, tonhal, sajt, lilahagyma, aprított olivabogyó / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Hal" >3</t>, <t title="Tej" >7</t>  /</div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Margherita</div>
+            <div class="menu-item-price">1090,-</div>
+            <div class="menu-item-description">Paradicsom szósz, sajt, friss paradicsom / <t title="Glutént tartalmazó gabonafélék" >1</t>, <t title="Tej" >7</t>  /</div>
           </div>
           <div class="menu-item">
             <div class="menu-item-name">Tésztagyűrűk garnélás paradicsomraguban</div>
@@ -514,6 +610,7 @@
           </div>
         </div>
 		</div>
+     	
       <div data-aos="fade-up" data-aos-duration="1000"  class="col-xs-10 col-sm-12 allergen">
       	<p>Allergén lista:</p>
       	<p>
@@ -578,18 +675,59 @@
 <div id="events">
   <div class="container">
     <div id="row">
-      <div class="col-md-6">
-        <div class="col-md-10 col-md-offset-1">
+        <div data-aos="fade-right" data-aos-duration="1000" class="col-xs-12 col-sm-6">
           <div class="section-title">
             <h2>Rendezvények</h2>
           </div>
           <p>Vállaljuk rendezvények lebonyolítását!</p>
         </div>
-        
+        <div data-aos="zoom-in" data-aos-duration="1000" class="col-xs-12 col-sm-6">
+			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				  <div class="item active">
+					<a href="img/events/1.jpg" data-lightbox="events"><img src="img/events/1.jpg" alt="Los Angeles" style="width:100%;"></a>
+					<div class="carousel-caption">
+					  <h3 style="color: white" >Születésnap</h3>
+					</div>
+				  </div>
+
+				  <div class="item">
+					<a href="img/events/2.jpg" data-lightbox="events"><img src="img/events/2.jpg" alt="Chicago" style="width:100%;"></a>
+					<div class="carousel-caption">
+					  <h3 style="color: white" >Esküvő</h3>
+					</div>
+				  </div>
+
+				  <div class="item">
+					<a href="img/events/3.jpg" data-lightbox="events"><img src="img/events/3.jpg" alt="New York" style="width:100%;"></a>
+					<div class="carousel-caption">
+					  <h3 style="color: white" >Csapatépítő</h3>
+					</div>
+				  </div>
+
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				  <i style="margin-top: 200%" class="glyphicon fa fa-chevron-left" aria-hidden="true"></i>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				  <i style="margin-top: 200%" class="fa fa-chevron-right" aria-hidden="true"></i>
+				  <span class="sr-only">Next</span>
+				</a>
+			  </div>
+        </div> 
       </div>
-     
-    </div>
-  </div>
+   </div>
 </div>
 <!-- Contact Section -->
 <div id="contact" class="text-center">
@@ -598,11 +736,11 @@
       <h3>Elérhetőségeink</h3>
       <div class="contact-item">
         <p><i class="fa fa-phone"></i></p>
-        <p>(88) 510-960</p>
-		<p>(88) 214-035</p>
-		<p>(70) 371-3295</p>
+        <p>Telefonszám 1</p>
+		<p>Telefonszám 2</p>
+		<p>Telefonszám 3</p>
      	<p><i class="fa fa-envelope"></i></p>
-     	<p><a href="mailto:kapufavendeglo@freemail.hu" title="E-mail küldése">kapufavendeglo@freemail.hu</a></p>
+     	<p><a href="mailto:kapufavendeglo@freemail.hu" title="E-mail küldése">email-cím@freemail.hu</a></p>
       </div>
     </div>
 	 <div class="col-md-3">
@@ -611,7 +749,7 @@
        <p><i class="fa fa-car"></i></p>
         <p>900 Ft. felett</p>
         <p>Ajka és környékén INGYENES!</p>
-		<p>Ajka-Padragkút, Magyarpolány INGYENES!</p>
+		<p>Ajka-Padragkút, Magyarpolány 500 Ft.</p>
 		<p>3000 Ft. feletti rendelésnél INGYENES!</p>
       </div>
     </div>
