@@ -341,13 +341,11 @@ header .intro-text {
 	margin-left: 0;
 	left: 0;
 }
-#events img {
-	max-width: 550px;
+
+#events .carousel-inner{
+	box-shadow: 5px 5px 15px #000;
 }
-#events .events-img {
-	display: inline-block;
-	position: relative;
-}
+
 /* Contact Section */
 #contact {
 	padding: 100px 0;
@@ -490,6 +488,10 @@ color: #999;
 		padding-left: 0px;
 		padding-right: 0px;
 		padding-top: 50px;
+	}
+	
+	.allergencim{
+		text-align: justify
 	}
 	
 	.intro p{
